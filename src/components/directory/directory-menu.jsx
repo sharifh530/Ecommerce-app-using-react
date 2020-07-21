@@ -18,7 +18,7 @@ class Directory extends React.Component {
         {
           title: "jackets",
           imageUrl:
-            "https://lh3.googleusercontent.com/proxy/XW8VLYs37_I3I9EPQmQC9w-I18EfaZ2htNgwAlgGrEtMl51fA1iQiseB4g3nPBrz6RJxAh8tiPUD18odN_K-L7zZ23qzUdsBcLdiA_JzWEZgqqni__6ph7Xv17Wj",
+            "https://c4.wallpaperflare.com/wallpaper/184/298/432/women-blonde-jacket-leather-jackets-wallpaper-preview.jpg",
           id: 2,
           linkUrl: "shop/jackets",
         },
