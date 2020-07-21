@@ -32,7 +32,7 @@ class Directory extends React.Component {
         {
           title: "womens",
           imageUrl:
-            "https://lh3.googleusercontent.com/proxy/Ca40amdP5dN33ngmhe1GuOb3vF9w3SV_ljCJ4aeGG4ku3a-CSJguN7VSqtiwL7NNehCHbxRHWM9hnsXnxmXte-0iyh5a_8Nl4z6lgJH5FnNn43R1zO_8eOy80LnMLEQPmWU-GDdUXh4nICA",
+            "https://wallpapersite.com/images/wallpapers/deepika-padukone-1920x1280-traditional-bollywood-hd-1449.jpg",
           size: "large",
           id: 4,
           linkUrl: "shop/womens",
