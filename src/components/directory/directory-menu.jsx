@@ -31,8 +31,7 @@ class Directory extends React.Component {
         },
         {
           title: "womens",
-          imageUrl:
-            "https://wallpapersite.com/images/wallpapers/deepika-padukone-1920x1280-traditional-bollywood-hd-1449.jpg",
+          imageUrl: "https://images7.alphacoders.com/442/thumb-1920-442644.jpg",
           size: "large",
           id: 4,
           linkUrl: "shop/womens",
