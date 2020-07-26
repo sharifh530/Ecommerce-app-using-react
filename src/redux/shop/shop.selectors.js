@@ -1,4 +1,5 @@
 import { createSelector } from "reselect";
+import collection from "../../pages/collection/collection";
 
 const COLLECTION_ID_MAP = {
   hats: 1,
@@ -17,12 +18,11 @@ export const selectCollections = createSelector(
 
 export const selectCollectionsForPreview = createSelector(
   [selectCollections],
-  (collections) => Object.keys(collections).map((key) => collections[key])
+  (collections) =>
+    collections ? Object.keys(collections).map((key) => collections[key]) : []
 );
 
 export const selectCollection = (collectionUrlParam) =>
   createSelector([selectCollections], (collections) =>
-    collections.find(
-      (collection) => collection.id === COLLECTION_ID_MAP[collectionUrlParam]
-    )
+    collections ? collections[collectionUrlParam] : null
   );
