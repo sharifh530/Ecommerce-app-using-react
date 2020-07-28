@@ -1,13 +1,21 @@
 body {
   font-family: "Josefin Sans", sans-serif;
   padding: 20px 60px;
+  background-color: #393e46;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #f9ed69;
 }
 
 * {
   box-sizing: border-box;
+  color: #eeeeee;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
 }
