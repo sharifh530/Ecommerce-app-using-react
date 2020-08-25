@@ -21,3 +21,9 @@
     color: #eeeeee;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .cart-icon {
+    display: none;
+  }
+}
